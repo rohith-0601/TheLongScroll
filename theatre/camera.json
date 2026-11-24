@@ -1,0 +1,3365 @@
+{
+  "sheetsById": {
+    "Camera": {
+      "staticOverrides": {
+        "byObject": {}
+      },
+      "sequence": {
+        "type": "PositionalSequence",
+        "length": 9,
+        "subUnitsPerUnit": 50,
+        "tracksByObject": {
+          "Rig": {
+            "trackIdByPropPath": {
+              "[\"position\",\"x\"]": "cam-position-x",
+              "[\"position\",\"y\"]": "cam-position-y",
+              "[\"position\",\"z\"]": "cam-position-z",
+              "[\"target\",\"x\"]": "cam-target-x",
+              "[\"target\",\"y\"]": "cam-target-y",
+              "[\"target\",\"z\"]": "cam-target-z",
+              "[\"fov\"]": "cam-fov",
+              "[\"roll\"]": "cam-roll",
+              "[\"frame\"]": "cam-frame"
+            },
+            "trackData": {
+              "cam-position-x": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"position\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "k0-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k0-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k0-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3282
+                    ],
+                    "type": "bezier",
+                    "value": -3.20728
+                  },
+                  {
+                    "id": "k0-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6718,
+                      0.3333,
+                      0.3386
+                    ],
+                    "type": "bezier",
+                    "value": -2.77055
+                  },
+                  {
+                    "id": "k0-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6614,
+                      0.46,
+                      1
+                    ],
+                    "type": "bezier",
+                    "value": -2.34725
+                  },
+                  {
+                    "id": "k0-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0,
+                      0.3333,
+                      0.335
+                    ],
+                    "type": "bezier",
+                    "value": -2.14186
+                  },
+                  {
+                    "id": "k0-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.665,
+                      0.3333,
+                      0.3317
+                    ],
+                    "type": "bezier",
+                    "value": -1.72072
+                  },
+                  {
+                    "id": "k0-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6683,
+                      0.46,
+                      0.0778
+                    ],
+                    "type": "bezier",
+                    "value": -1.29535
+                  },
+                  {
+                    "id": "k0-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3317
+                    ],
+                    "type": "bezier",
+                    "value": 5.0718
+                  },
+                  {
+                    "id": "k0-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6683,
+                      0.3333,
+                      0.335
+                    ],
+                    "type": "bezier",
+                    "value": 4.66193
+                  },
+                  {
+                    "id": "k0-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.665,
+                      0.46,
+                      0.7292
+                    ],
+                    "type": "bezier",
+                    "value": 4.2561
+                  },
+                  {
+                    "id": "k0-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.3964,
+                      0.3333,
+                      0.3353
+                    ],
+                    "type": "bezier",
+                    "value": 3.60124
+                  },
+                  {
+                    "id": "k0-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6647,
+                      0.3333,
+                      0.3314
+                    ],
+                    "type": "bezier",
+                    "value": 3.26561
+                  },
+                  {
+                    "id": "k0-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6686,
+                      0.46,
+                      0.0954
+                    ],
+                    "type": "bezier",
+                    "value": 2.92608
+                  },
+                  {
+                    "id": "k0-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3274
+                    ],
+                    "type": "bezier",
+                    "value": -1.21534
+                  },
+                  {
+                    "id": "k0-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6726,
+                      0.3333,
+                      0.3395
+                    ],
+                    "type": "bezier",
+                    "value": -0.95346
+                  },
+                  {
+                    "id": "k0-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6605,
+                      0.46,
+                      0.0488
+                    ],
+                    "type": "bezier",
+                    "value": -0.70086
+                  },
+                  {
+                    "id": "k0-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3355
+                    ],
+                    "type": "bezier",
+                    "value": 5.46826
+                  },
+                  {
+                    "id": "k0-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6645,
+                      0.3333,
+                      0.3312
+                    ],
+                    "type": "bezier",
+                    "value": 5.06946
+                  },
+                  {
+                    "id": "k0-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6688,
+                      0.46,
+                      0.0767
+                    ],
+                    "type": "bezier",
+                    "value": 4.66553
+                  },
+                  {
+                    "id": "k0-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.33
+                    ],
+                    "type": "bezier",
+                    "value": -1.46292
+                  },
+                  {
+                    "id": "k0-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.67,
+                      0.3333,
+                      0.3367
+                    ],
+                    "type": "bezier",
+                    "value": -1.11337
+                  },
+                  {
+                    "id": "k0-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6633,
+                      0.46,
+                      0.0647
+                    ],
+                    "type": "bezier",
+                    "value": -0.77079
+                  },
+                  {
+                    "id": "k0-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3358
+                    ],
+                    "type": "bezier",
+                    "value": 5.49487
+                  },
+                  {
+                    "id": "k0-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6642,
+                      0.3333,
+                      0.3309
+                    ],
+                    "type": "bezier",
+                    "value": 5.08027
+                  },
+                  {
+                    "id": "k0-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6691,
+                      0.46,
+                      0.1978
+                    ],
+                    "type": "bezier",
+                    "value": 4.65949
+                  },
+                  {
+                    "id": "k0-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.8518,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.18675
+                  },
+                  {
+                    "id": "k0-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.87369
+                  }
+                ]
+              },
+              "cam-position-y": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"position\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "k1-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.27044
+                  },
+                  {
+                    "id": "k1-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.26281
+                  },
+                  {
+                    "id": "k1-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.55747
+                  },
+                  {
+                    "id": "k1-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.52612
+                  },
+                  {
+                    "id": "k1-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.49476
+                  },
+                  {
+                    "id": "k1-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3337
+                    ],
+                    "type": "bezier",
+                    "value": 3.42065
+                  },
+                  {
+                    "id": "k1-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6663,
+                      0.3333,
+                      0.3329
+                    ],
+                    "type": "bezier",
+                    "value": 3.31288
+                  },
+                  {
+                    "id": "k1-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6671,
+                      0.46,
+                      0.1044
+                    ],
+                    "type": "bezier",
+                    "value": 3.20486
+                  },
+                  {
+                    "id": "k1-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.9773,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.99454
+                  },
+                  {
+                    "id": "k1-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.97107
+                  },
+                  {
+                    "id": "k1-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.0075
+                    ],
+                    "type": "bezier",
+                    "value": 1.94761
+                  },
+                  {
+                    "id": "k1-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3336
+                    ],
+                    "type": "bezier",
+                    "value": -1.73397
+                  },
+                  {
+                    "id": "k1-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6664,
+                      0.3333,
+                      0.3331
+                    ],
+                    "type": "bezier",
+                    "value": -1.55742
+                  },
+                  {
+                    "id": "k1-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6669,
+                      0.46,
+                      0.0795
+                    ],
+                    "type": "bezier",
+                    "value": -1.38059
+                  },
+                  {
+                    "id": "k1-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.22333
+                  },
+                  {
+                    "id": "k1-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.19981
+                  },
+                  {
+                    "id": "k1-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.17629
+                  },
+                  {
+                    "id": "k1-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3334
+                    ],
+                    "type": "bezier",
+                    "value": 1.29932
+                  },
+                  {
+                    "id": "k1-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6666,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.23761
+                  },
+                  {
+                    "id": "k1-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.025
+                    ],
+                    "type": "bezier",
+                    "value": 1.17588
+                  },
+                  {
+                    "id": "k1-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.71621
+                  },
+                  {
+                    "id": "k1-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.69533
+                  },
+                  {
+                    "id": "k1-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.005
+                    ],
+                    "type": "bezier",
+                    "value": -1.67446
+                  },
+                  {
+                    "id": "k1-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.24175
+                  },
+                  {
+                    "id": "k1-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.24175
+                  },
+                  {
+                    "id": "k1-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3.24175
+                  },
+                  {
+                    "id": "k1-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.82566
+                  },
+                  {
+                    "id": "k1-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.90936
+                  }
+                ]
+              },
+              "cam-position-z": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"position\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "k2-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 6.1941
+                  },
+                  {
+                    "id": "k2-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 6.01927
+                  },
+                  {
+                    "id": "k2-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3433
+                    ],
+                    "type": "bezier",
+                    "value": 14.46712
+                  },
+                  {
+                    "id": "k2-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6567,
+                      0.3333,
+                      0.324
+                    ],
+                    "type": "bezier",
+                    "value": 14.25325
+                  },
+                  {
+                    "id": "k2-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.676,
+                      0.46,
+                      0.1372
+                    ],
+                    "type": "bezier",
+                    "value": 14.02662
+                  },
+                  {
+                    "id": "k2-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3064
+                    ],
+                    "type": "bezier",
+                    "value": 12.14708
+                  },
+                  {
+                    "id": "k2-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6936,
+                      0.3333,
+                      0.3654
+                    ],
+                    "type": "bezier",
+                    "value": 12.24353
+                  },
+                  {
+                    "id": "k2-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6346,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 12.3244
+                  },
+                  {
+                    "id": "k2-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.1391
+                    ],
+                    "type": "bezier",
+                    "value": 11.52654
+                  },
+                  {
+                    "id": "k2-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.8609,
+                      0.3333,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 11.53869
+                  },
+                  {
+                    "id": "k2-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      1,
+                      0.46,
+                      0.0041
+                    ],
+                    "type": "bezier",
+                    "value": 11.53668
+                  },
+                  {
+                    "id": "k2-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.9139,
+                      0.3333,
+                      0.317
+                    ],
+                    "type": "bezier",
+                    "value": 12.98567
+                  },
+                  {
+                    "id": "k2-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.683,
+                      0.3333,
+                      0.3514
+                    ],
+                    "type": "bezier",
+                    "value": 13.09766
+                  },
+                  {
+                    "id": "k2-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6486,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 13.19871
+                  },
+                  {
+                    "id": "k2-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.8874,
+                      0.3333,
+                      0.3384
+                    ],
+                    "type": "bezier",
+                    "value": 11.09716
+                  },
+                  {
+                    "id": "k2-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6616,
+                      0.3333,
+                      0.3284
+                    ],
+                    "type": "bezier",
+                    "value": 10.89811
+                  },
+                  {
+                    "id": "k2-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6716,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 10.69303
+                  },
+                  {
+                    "id": "k2-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.9203,
+                      0.3333,
+                      0.3208
+                    ],
+                    "type": "bezier",
+                    "value": 13.04032
+                  },
+                  {
+                    "id": "k2-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6792,
+                      0.3333,
+                      0.3468
+                    ],
+                    "type": "bezier",
+                    "value": 13.2064
+                  },
+                  {
+                    "id": "k2-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6532,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 13.36002
+                  },
+                  {
+                    "id": "k2-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.7326,
+                      0.3333,
+                      0.3471
+                    ],
+                    "type": "bezier",
+                    "value": 12.83993
+                  },
+                  {
+                    "id": "k2-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6529,
+                      0.3333,
+                      0.3206
+                    ],
+                    "type": "bezier",
+                    "value": 12.72585
+                  },
+                  {
+                    "id": "k2-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6794,
+                      0.46,
+                      0.1699
+                    ],
+                    "type": "bezier",
+                    "value": 12.60237
+                  },
+                  {
+                    "id": "k2-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3202
+                    ],
+                    "type": "bezier",
+                    "value": 11.78378
+                  },
+                  {
+                    "id": "k2-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6798,
+                      0.3333,
+                      0.3476
+                    ],
+                    "type": "bezier",
+                    "value": 11.96837
+                  },
+                  {
+                    "id": "k2-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6524,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 12.13838
+                  },
+                  {
+                    "id": "k2-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 10.99866
+                  },
+                  {
+                    "id": "k2-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 11.03002
+                  }
+                ]
+              },
+              "cam-target-x": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"target\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "k3-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k3-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  }
+                ]
+              },
+              "cam-target-y": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"target\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "k4-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.1
+                  },
+                  {
+                    "id": "k4-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.1
+                  },
+                  {
+                    "id": "k4-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.1
+                  },
+                  {
+                    "id": "k4-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.05
+                  },
+                  {
+                    "id": "k4-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.05
+                  },
+                  {
+                    "id": "k4-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.05
+                  },
+                  {
+                    "id": "k4-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.1
+                  },
+                  {
+                    "id": "k4-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0.1
+                  },
+                  {
+                    "id": "k4-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.1
+                  },
+                  {
+                    "id": "k4-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k4-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -0.3
+                  },
+                  {
+                    "id": "k4-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": -0.3
+                  }
+                ]
+              },
+              "cam-target-z": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"target\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "k5-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k5-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -0.8
+                  },
+                  {
+                    "id": "k5-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": -0.8
+                  }
+                ]
+              },
+              "cam-fov": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"fov\"]",
+                "keyframes": [
+                  {
+                    "id": "k6-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 34
+                  },
+                  {
+                    "id": "k6-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 34
+                  },
+                  {
+                    "id": "k6-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 37
+                  },
+                  {
+                    "id": "k6-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 37
+                  },
+                  {
+                    "id": "k6-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 37
+                  },
+                  {
+                    "id": "k6-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 34
+                  },
+                  {
+                    "id": "k6-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 34
+                  },
+                  {
+                    "id": "k6-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 34
+                  },
+                  {
+                    "id": "k6-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 36
+                  },
+                  {
+                    "id": "k6-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 33
+                  },
+                  {
+                    "id": "k6-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 33
+                  },
+                  {
+                    "id": "k6-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 33
+                  },
+                  {
+                    "id": "k6-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 35
+                  },
+                  {
+                    "id": "k6-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 35
+                  },
+                  {
+                    "id": "k6-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 35
+                  },
+                  {
+                    "id": "k6-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 42
+                  },
+                  {
+                    "id": "k6-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 42
+                  }
+                ]
+              },
+              "cam-roll": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"roll\"]",
+                "keyframes": [
+                  {
+                    "id": "k7-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.2
+                  },
+                  {
+                    "id": "k7-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.2
+                  },
+                  {
+                    "id": "k7-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.2
+                  },
+                  {
+                    "id": "k7-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.5
+                  },
+                  {
+                    "id": "k7-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1.5
+                  },
+                  {
+                    "id": "k7-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.5
+                  },
+                  {
+                    "id": "k7-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -0.8
+                  },
+                  {
+                    "id": "k7-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -0.8
+                  },
+                  {
+                    "id": "k7-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": -0.8
+                  },
+                  {
+                    "id": "k7-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "k7-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "k7-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "k7-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "k7-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  },
+                  {
+                    "id": "k7-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": -1.2
+                  }
+                ]
+              },
+              "cam-frame": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Rig:[\"frame\"]",
+                "keyframes": [
+                  {
+                    "id": "k8-000",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.2
+                  },
+                  {
+                    "id": "k8-011",
+                    "position": 0.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.2
+                  },
+                  {
+                    "id": "k8-039",
+                    "position": 0.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.6
+                  },
+                  {
+                    "id": "k8-050",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.6
+                  },
+                  {
+                    "id": "k8-061",
+                    "position": 1.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3.6
+                  },
+                  {
+                    "id": "k8-089",
+                    "position": 1.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.4
+                  },
+                  {
+                    "id": "k8-100",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.4
+                  },
+                  {
+                    "id": "k8-111",
+                    "position": 2.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3.4
+                  },
+                  {
+                    "id": "k8-139",
+                    "position": 2.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.7
+                  },
+                  {
+                    "id": "k8-150",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.7
+                  },
+                  {
+                    "id": "k8-161",
+                    "position": 3.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.7
+                  },
+                  {
+                    "id": "k8-189",
+                    "position": 3.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.3
+                  },
+                  {
+                    "id": "k8-200",
+                    "position": 4,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.3
+                  },
+                  {
+                    "id": "k8-211",
+                    "position": 4.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3.3
+                  },
+                  {
+                    "id": "k8-239",
+                    "position": 4.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.2
+                  },
+                  {
+                    "id": "k8-250",
+                    "position": 5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.2
+                  },
+                  {
+                    "id": "k8-261",
+                    "position": 5.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.2
+                  },
+                  {
+                    "id": "k8-289",
+                    "position": 5.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.7
+                  },
+                  {
+                    "id": "k8-300",
+                    "position": 6,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3.7
+                  },
+                  {
+                    "id": "k8-311",
+                    "position": 6.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3.7
+                  },
+                  {
+                    "id": "k8-339",
+                    "position": 6.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.6
+                  },
+                  {
+                    "id": "k8-350",
+                    "position": 7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 2.6
+                  },
+                  {
+                    "id": "k8-361",
+                    "position": 7.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.6
+                  },
+                  {
+                    "id": "k8-389",
+                    "position": 7.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      1,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3
+                  },
+                  {
+                    "id": "k8-400",
+                    "position": 8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3
+                  },
+                  {
+                    "id": "k8-411",
+                    "position": 8.22,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.46,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 3
+                  },
+                  {
+                    "id": "k8-439",
+                    "position": 8.78,
+                    "connectedRight": true,
+                    "handles": [
+                      0.54,
+                      0.54,
+                      0.3333,
+                      0.3333
+                    ],
+                    "type": "bezier",
+                    "value": 3
+                  },
+                  {
+                    "id": "k8-450",
+                    "position": 9,
+                    "connectedRight": true,
+                    "handles": [
+                      0.6667,
+                      0.6667,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "baked-1dfhb80"
+  ]
+}
