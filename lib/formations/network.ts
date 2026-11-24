@@ -292,7 +292,10 @@ export const generateNetwork: FormationGenerator = ({ count, out, rng, seed, rep
       x = tmp[0]! + (ja - 511.5) * amp;
       y = tmp[1]! + (jb - 511.5) * amp;
       z = tmp[2]! + (jc - 511.5) * amp;
-      w = PULSE_W_OFFSET + Math.min(0.9999, s);
+      // Per-arc phase offset (golden-ratio hash of the arc index) so pulses don't travel in lockstep.
+      // The shader wraps phase with fract(), so the offset only shifts each arc's pulse timing.
+      const ph = s + ((e * 0.6180339887 + 0.137) % 1);
+      w = PULSE_W_OFFSET + Math.min(0.9999, ph - Math.floor(ph));
     }
     out[o] = x; out[o + 1] = y; out[o + 2] = z; out[o + 3] = w;
   }
