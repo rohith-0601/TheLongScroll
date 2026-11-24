@@ -30,6 +30,18 @@ WebGPU needs a secure context: `https://` or `http://localhost`. Opening the sit
 
 ## Deploy (all free)
 
+**Live:** https://the-long-scroll.pages.dev (Cloudflare Pages project `the-long-scroll`, direct upload).
+To redeploy after changes:
+
+```bash
+npm run build
+cd /tmp && npx wrangler@4 pages deploy "<path-to-this-project>/out" --project-name the-long-scroll --branch main
+```
+
+Run wrangler from a folder OUTSIDE this project: inside a Next.js project, wrangler's auto-setup tries
+to convert the app to Cloudflare Workers (OpenNext) and rewrites next.config.ts / package.json.
+Never pass `--force` again (it was only needed once, to create the Pages project).
+
 **Cloudflare Pages (recommended)**: Workers & Pages → Create → Pages → connect the Git repo →
 framework preset *Next.js (Static HTML Export)*, build command `npm run build`, output directory
 `out`, environment variable `NODE_VERSION=24`. `public/_headers` makes `/_next/static/*` cache for a
